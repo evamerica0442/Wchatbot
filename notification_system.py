@@ -22,7 +22,7 @@ class NotificationManager:
         
         # Twilio configuration for SMS
         self.twilio_account_sid = 'ACb82a7c4a7be7865d6246ad61508fc23f'  # Replace with your Twilio SID
-        self.twilio_auth_token = '70056081d6a9045f227611b9c662ba11'    # Replace with your Twilio token
+        self.twilio_auth_token = '2c5ceb28596a5734f22ca304037f00d7'    # Replace with your Twilio token
         self.twilio_phone = '+18777804236'             # Replace with your Twilio phone number
         
         # WhatsApp configuration
