@@ -17,7 +17,7 @@ class NotificationManager:
         self.smtp_server = "smtp.gmail.com"
         self.smtp_port = 587
         self.email_username = "elmar.america@gmail.com"  # Replace with your email
-        self.email_password = "hbpr poqs fcas jjyo"     # Replace with your app password
+        self.email_password = "hbprpoqsfcasjjyo"     # Replace with your app password
         self.from_email = "elmar.america@gmail.com"
         
         # Twilio configuration for SMS
@@ -35,7 +35,7 @@ class NotificationManager:
         ]
         
         # Webhook for external notifications (optional)
-        self.webhook_url = "https://21b19b54b711.ngrok-free.app/appointment-notification"
+        # self.webhook_url = "https://21b19b54b711.ngrok-free.app/appointment-notification"
         
         # Initialize Twilio client
         try:
